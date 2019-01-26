@@ -1,9 +1,9 @@
-09/02/2019
+﻿09/02/2019
 Faire la Partie IA :
 -Gestion de l'ia de tout les démons et anges :
 	-Normaux (deplacement lent, CAC)
 	-Mortier (pas de deplacement, RANGE)
-	-Rampant (deplacement rapide au sol, CAC) X
+	-Rampant (deplacement rapide au sol, CAC) 
 	-Volant (vol pas de déplacement, RANGE)
 
 ////////////// PROCHAIN OBJECTIF ///////////////////
