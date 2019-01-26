@@ -7,23 +7,27 @@ public class Mouvements : MonoBehaviour
 	public Rigidbody2D rb_Joueur;
 	
 	//Variables pour les déplacements horizontaux
-	public float vitesse = 0.0f;
-	public float vitesse_min = 1.0f;
-	public float vitesse_max = 8.0f;
+	private float vitesse = 0.0f;
+	private float vitesse_min = 1.0f;
+	private float vitesse_max = 30f;
 	
-	public float augmentation_vitesse = 0.05f;
+	private float augmentation_vitesse = 1.5f;
 	
 	private bool cours_gauche = false;
 	private bool cours_droite = false;
 	
 	//Variables pour les déplacements verticaux
-	public float force_saut = 0.0f;	
-	public bool est_au_sol = false;
-	public float multiplicateur_second_saut = 1.5f;
-	public int nb_sauts = 0;
+	//REQUIERT UNE GRAVITE = 10
+	private float force_saut = 50.0f;	
+	private bool est_au_sol = false;
+	private float multiplicateur_second_saut = 1.5f;
+	private int nb_sauts = 0;
 	
 	private float minuteur = 0.0f;
-	public float temps_entre_deux_sauts = 1.5f;
+	private float temps_entre_deux_sauts = 1.5f;
+	private float deltaTransformPosY = 2.95f;
+	private float deltaPhysRayLastArg = 0.1f;
+	
 	
     // Start is called before the first frame update
     void Start()
@@ -89,7 +93,7 @@ public class Mouvements : MonoBehaviour
 		}
 		
 		//Code pour les sauts
-		RaycastHit2D hit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y-2f), -Vector2.up, 0.1f);
+		RaycastHit2D hit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y - deltaTransformPosY), -Vector2.up, deltaPhysRayLastArg);
 		
 		if (hit.collider != null)
 		{
