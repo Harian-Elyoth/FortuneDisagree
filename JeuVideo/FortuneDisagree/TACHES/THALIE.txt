@@ -1,5 +1,6 @@
 12/02/2019 
 Finir les premiers sprites du personnage, et les poster sur Git à l'emplacement prévu a cet effet :
+(Le personnage a un baton et son épée dans le dos, et son pendantif ne brille pas)
 -Debout droite
 -Debout Gauche
 -Saute Droite
@@ -12,3 +13,45 @@ Finir les premiers sprites du personnage, et les poster sur Git à l'emplacement 
 -Deplacement Gauche
 -Glissement sur Mur Droite (Pour pouvoir faire des wall-jumps, comme quand Mario glisse sur une paroie pour resauter par la suite)
 -Glissement sur Mur Gauche
+
+///////////////// PROCHAIN OBJECTIF ////////////////////
+
+Finir le personnage principal
+
+Mode Offense (épée à la main, bâton dans le dos, pendantif ne brille pas) :
+Dans cette stence le joueur sera assez rapide : adapter le déplacement en conséquence
+-Debout droite
+-Debout Gauche
+-Deplacement Droite (sur 4 Dessins)
+-Deplacement Gauche (sur 4 Dessins)
+-Attaque à l'épée Droite (sur 4 Dessins)
+-Attaque à l'épée Gauche (sur 4 Dessins)
+-Attaque spéciale droite et gauche (sur 4 Dessins, il donne un coup sur le sol qui se répercute jusqu'a quelques mètre plus loins)
+-Onde de choc de l'attaque spéciale
+
+Mode Defense (épée dans le dos, baton dans le dos, pendantif qui brille) :
+Dans cette stence le joueur sera assez lent : adapter le déplacement en conséquence
+C'est un bouclier Magique, De plus il sera orienté par le joueur à toi de voir
+la pose du personnage : soit statique (il ne change pas de pose tel un super sayain le faire un peu volé pour le style), 
+soit dynamique (il oriente son bras vers l'endroit du bouclier, auquel cas il faudra un sprite du bras seul et un sprite du personnage avec un bras en moins (droite et gauche dans ce cas)
+Nous ajusterons par la suite le bras en fonction de l'endroit ciblé par la souris du joueur) c'est à toi de voir.
+-Debout droite
+-Debout Gauche
+-Deplacement Droite (sur 4 Dessins)
+-Deplacement Gauche (sur 4 Dessins)
+
+
+Mode Technicien (épee dans le dos, baton à la main, pendantif ne brille pas) :
+Dans cette stence le joueur aura un déplacement normal.
+-Debout droite
+-debout gauche
+-Deplacement droite
+-Deplacement Gauche
+-Attaque droite (un coup de bâton qui envoit un projectile)
+-Attaque gauche
+-Projectile vers la droite (2 Dessin)
+-Projectile vers la gauche (2 Dessin)
+-Attaque Spéciale droite et gauche(sur 4 Dessins, Il vole vite fait et envoie une boule de feu)
+-Boule de feu droite et gauche (sur 2 Dessins)
+
+
