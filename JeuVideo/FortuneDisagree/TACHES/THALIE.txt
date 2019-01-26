@@ -1,0 +1,14 @@
+12/02/2019 
+Finir les premiers sprites du personnage, et les poster sur Git à l'emplacement prévu a cet effet :
+-Debout droite
+-Debout Gauche
+-Saute Droite
+-Saute Gauche
+-Retombe Droite
+-Retombe Gauche
+-Baisse droite
+-Baisse gauche
+-Deplacement Droite
+-Deplacement Gauche
+-Glissement sur Mur Droite (Pour pouvoir faire des wall-jumps, comme quand Mario glisse sur une paroie pour resauter par la suite)
+-Glissement sur Mur Gauche
