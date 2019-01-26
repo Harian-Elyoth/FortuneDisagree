@@ -12,19 +12,24 @@ Combat :
 
 		Une Technicien ou il a son baton magique qui fait des dégats de zone.
 
-	Sazael est un grand mage, il connait deux types de magie (pas follichon pour un grand mage mais on fait avec) La lumière, et les ténèbres qui influence les armes et les capacités de ses stences
-
-		Épée de Lumière : A du vol de vie, 
+	Sazael est un grand mage, Sa capacité de base est Martiale (il sait juste se battre) il connaitra deux types de magie (pas follichon pour un grand mage mais on fait avec) La lumière, et les ténèbres qui influence les armes et les capacités de ses stences
+		Épee Martiale : AA BASIQUE
+			capacité : Il donne un gros coup sur le sol faisant une onde de choc.
+		Bouclier Martial : SHIELD BASIQUE
+			capacité : Il charge en avant.
+		Baton Martial : AA RANGE BASIQUE
+			capacité : Il lance une boule de feu.
+		Épée Lumière : A du vol de vie,
 			capacité : peut éblouir les ennemis (stun)
-		Épée de L'ombre : Coute un peu de vie a Sazael, mais inflige le double des dégats normaux. 
+		Épée Ombre : Coute un peu de vie a Sazael, mais inflige le double des dégats normaux.
 			capacité :Il peut effectuer un dash de l'ombre vers une direction.
-		Bouclier de Lumière : Outre le bouclier naturel il renvoi les projectiles des démons. 
+		Bouclier Lumière : Outre le bouclier naturel il renvoi les projectiles des démons.
 			capacité :Il peut faire exploser son bouclier pour repousser les ennemis
-		Bouclier de l'ombre : Outre le bouclier naturel, il renvoi les projectiles des anges. 
+		Bouclier Ombre : Outre le bouclier naturel, il renvoi les projectiles des anges.
 			capacité :Il peut faire exploser son bouclier pour attirer les ennemis vers lui. (qui peut combotter avec la stence technicien)
-		Baton de Lumière :Degat sur une ligne droite traversant les ennemis
+		Baton Lumière :Degat sur une ligne droite traversant les ennemis
 			capacité :Il peut lancer un gros rayon en ligne droite
-		Baton de l'ombre :Degat sous la forme d'une boule d'energie explosant au premier ennemis touché (gros dégats de zone)
+		Baton Ombre :Degat sous la forme d'une boule d'energie explosant au premier ennemis touché (gros dégats de zone)
 			capacité :Il peut faire liberer une grosse explosion d'energie autour de lui qui repousse les ennemis.
 
 Le joueur devra donc gerer:
@@ -35,12 +40,10 @@ Les differentes stences, le changement de magie, ainsi que la capacité spécial
 Déplacement :
 Comme c'est un jeu 2D, il peut aller à gauche, à droite, s'accroupir ou sauter.
 Sazael est un personnage assez agile, il peut faire des doubles sauts ainsi que des walls jump.
-Il peut courir, 
+Il peut courir,
 La vitesse selon les stences :
 
 Les chiffres sont des valeurs arbitraires mais sont proportionnelles entres elles.
 	Offense : 3  avec Run : 4
 	Defense : 1  avec Run : 2
 	Technic : 2  avec Run : 3
-
-
