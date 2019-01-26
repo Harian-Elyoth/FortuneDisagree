@@ -1,0 +1,20 @@
+09/02/2019
+Faire la Partie IA :
+-Gestion de l'ia de tout les démons et anges :
+	-Normaux (deplacement lent, CAC)
+	-Mortier (pas de deplacement, RANGE)
+	-Rampant (deplacement rapide au sol, CAC)
+	-Normaux (deplacement lent, CAC)
+	-Volant (vol pas de déplacement, RANGE)
+
+////////////// PROCHAIN OBJECTIF ///////////////////
+
+	
+Faire la Partie Combat :
+-Gestion des points de vie,
+-Gestion des dégats,
+-Gestion du changement de stence de notre personnage
+
+Partie IA
+-Premier BOSS : Pattern, quelques dialogues
+-ZAKIEL : Pattern, quelques dialogues
