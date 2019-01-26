@@ -1,1 +1,0 @@
-09/02/2019 Finir les premiers sprites du personnage, et les poster sur Git à l'emplacement prévu a cet effet.
