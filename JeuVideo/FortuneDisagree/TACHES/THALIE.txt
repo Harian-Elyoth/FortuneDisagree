@@ -1,4 +1,4 @@
-12/02/2019 
+15/02/2019 
 Finir les premiers sprites du personnage, et les poster sur Git à l'emplacement prévu a cet effet :
 (Le personnage a un baton et son épée dans le dos, et son pendantif ne brille pas)
 -Debout droite
@@ -9,8 +9,8 @@ Finir les premiers sprites du personnage, et les poster sur Git à l'emplacement 
 -Retombe Gauche
 -Baisse droite
 -Baisse gauche
--Deplacement Droite
--Deplacement Gauche
+-Deplacement Droite (Sur 3 Dessins)
+-Deplacement Gauche (Sur 3 Dessins)
 -Glissement sur Mur Droite (Pour pouvoir faire des wall-jumps, comme quand Mario glisse sur une paroie pour resauter par la suite)
 -Glissement sur Mur Gauche
 
