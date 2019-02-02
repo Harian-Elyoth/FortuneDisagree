@@ -1,4 +1,7 @@
-02/02/2019
+Jeudi 07/02/2019
 
-Dessin Démon debout avec une grosse masse dans la main
+Essais Démon numéro 2 : 
 
+-Avec Fond Transparent.
+
+-Debout et Entier (tête aux pied).
