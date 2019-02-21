@@ -68,11 +68,12 @@ public class IA_Ange_Tourelle : MonoBehaviour
 			if (Vector2.Distance(transform.position, cible.position) < distance_reperage)
 			{
 				GameObject tire;
+
+				Vector2 dir = cible.position - point_de_lancement.position;
+
+				float angle = Mathf.Atan2(dir.y,dir.x) * Mathf.Rad2Deg + 90;
 				
-				Vector2 dir = cible.position - transform.position;
-				float angle = Mathf.Atan2(dir.x,dir.y) * Mathf.Rad2Deg; 				
-				
-				tire = Instantiate(projectile, point_de_lancement.position, Quaternion.AngleAxis(angle+cgm_angle, Vector3.forward));
+				tire = Instantiate(projectile, point_de_lancement.position, Quaternion.AngleAxis(angle, Vector3.forward));
 				recharge = true;
 			}
 		}

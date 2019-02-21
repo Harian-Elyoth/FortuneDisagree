@@ -5,6 +5,7 @@ using UnityEngine;
 public class IA_Demon_Rampant : MonoBehaviour
 {
 	public float vitesse;
+	public float vitesse_grimpage;
 	public float distance_reperage;
 	
 	private Vector2 posInitial;
@@ -19,6 +20,10 @@ public class IA_Demon_Rampant : MonoBehaviour
 	private Rigidbody2D rb;
 	public float gravite;
 	
+	public bool grimpe = false;
+	
+	private float taille_rampant = 0.60f;
+	
     // Start is called before the first frame update
     void Start()
     {
@@ -31,24 +36,14 @@ public class IA_Demon_Rampant : MonoBehaviour
     // Update is called once per frame
     void Update()
     {		
-		if (Physics2D.Raycast(transform.position, Vector2.up, 0.01f, LayerGrimpable) && rb.position.y != cible.position.y-1.33)
+		if (Physics2D.Raycast(transform.position, Vector2.up, 0.01f, LayerGrimpable) && transform.position.y + taille_rampant*2 < cible.position.y)
 		{
-			rb.gravityScale = 0;
+			grimpe = true;
+		}
+		
+		if (grimpe)
+		{
 
-			
-			Physics2D.IgnoreLayerCollision(10, 12, true);
-			if (Vector2.Distance(transform.position, cible.position) < distance_reperage)
-				{
-					transform.position = Vector2.MoveTowards(transform.position, new Vector2(cible.position.x, cible.position.y), vitesse * Time.deltaTime);
-				}
-				else
-				{
-					transform.position = Vector2.MoveTowards(transform.position, new Vector2(posInitial.x, transform.position.y), vitesse * Time.deltaTime);
-				}
-			if (Physics2D.Raycast(transform.position, Vector2.down, 0.01f, LayerGrimpable))
-			{
-				//rb.velocity = new Vector2(0, 2);
-			}
 		}
 		else
 		{

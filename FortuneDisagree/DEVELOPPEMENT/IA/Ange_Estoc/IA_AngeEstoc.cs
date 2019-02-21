@@ -55,7 +55,7 @@ public class IA_AngeEstoc : MonoBehaviour
 		{
 			if (transform.position.y - cible.position.y < hauteur_detection_vertical && (transform.position.x-cible.position.x <= distance_reperage || transform.position.x-cible.position.x >= -distance_reperage))
 			{
-				transform.position = Vector2.MoveTowards(transform.position, new Vector2(cible.position.x, transform.position.y), V * Time.deltaTime);
+				transform.position = Vector2.MoveTowards(transform.position, new Vector2(cible.position.x, transform.position.y), vitesse_precharge * Time.deltaTime);
 			}
 			else
 			{
