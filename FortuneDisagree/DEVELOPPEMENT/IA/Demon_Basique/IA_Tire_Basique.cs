@@ -10,15 +10,13 @@ public class IA_Tire_Basique : MonoBehaviour
 	private float minuteur = 0.0f;
 	
 	private Transform cible;
-	
 	private Vector2 POS;
 	
     // Start is called before the first frame update
     void Start()
     {
-        cible = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-		
-		POS = (cible.position - transform.position).normalized; 
+        cible = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();	
+		    POS = (cible.position - transform.position).normalized; 
     }
 
     // Update is called once per frame
@@ -29,7 +27,6 @@ public class IA_Tire_Basique : MonoBehaviour
 		{
 			Destroy(gameObject);
 		}
-		
 		transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x + 2*POS.x, transform.position.y + 2*POS.y), vitesse * Time.deltaTime);
     }
 	
