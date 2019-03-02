@@ -4,4 +4,4 @@ Essais Démon numéro 2 :
 
 -Avec Fond Transparent.
 
--Debout et Entier (tête aux pied).
+-Debout et Entier (tête aux pied)
