@@ -1,41 +1,41 @@
 Après sa vision, Sazaël descend de la colline et arrive en ville.
-Il y voit des démons, certains sont très grands avec des masses, d'autre sont rapides et rampants. Certains attaquent à distances tels des mortiers.
-La tour du village est presque détruit.
+Il y voit des démons, certains sont très grands avec des masses, d'autre sont rapides et rampants. Certains attaquent à distance tels des mortiers.
+La tour du village est presque détruite.
 Il arrive face à un ravin d'où sortent des démons, 
-Ils montent le haut de la tour puis saute par dessus le ravin. 
-Au moment ou il attérit sur la Terre ferme, des anges venant du ciel l'encercle. 
-Certains ont des épées, d'autres des Light Canon,
-En continuant, Il arrive devant un grand fossé ou un géant démoniaque apparait : 
+Ils montent le haut de la tour puis sautent par dessus le ravin. 
+Au moment où il aterrit sur la Terre ferme, des anges venant du ciel l'encerclent. 
+Certains ont des épées, d'autres des Light Canons,
+En continuant, il arrive devant un grand fossé où un géant démoniaque apparaît : 
 
 PREMIER BOSS :
-De 100% à 65% de ses points de vie : Le Boss donne des coups de massue très lents où le joueur devra sauté par dessus.
+De 100% à 65% de ses points de vie : Le Boss donne des coups de massue très lents où le joueur devra sauter par dessus.
 Il crachera aussi de l'acide : Le joueur devra se proteger avec son bouclier, 
 
-De 65% à 35% de ses points de vie : Le boss invoquera 5 ennemis démoniaques et crachera de l'acide, 
-Si les ennemis meurent ils fait 3 attaques puis en réinvoque.
+De 65% à 35% de ses points de vie : Le Boss invoquera 5 ennemis démoniaques et crachera de l'acide, 
+Si les ennemis meurent il fait 3 attaques puis en réinvoque.
 
-De 35% à 0% Le Boss sera enragés, il donnera un coup de massue par terre et la fait tremblée (Ce qui infligera des dégats au joueur)
-Mais il fera tomber un element du décors qui sera un mur.
+De 35% à 0% : Le Boss sera enragé, il donnera un coup de massue par terre et la fait trembler (Ce qui infligera des dégats au joueur)
+Mais il fera tomber un élement du décor qui sera un mur.
 Puis il chargera (Le joueur devra effectuer des Wall-Jumps pour éviter)
 Puis il attaquera 3 fois rapidement de sa massue.
 
-Une fois battue, Le joueur devra passé le ravin : Il dispose de quelques plateforme de terre.
+Une fois battu, Le joueur devra passer le ravin : Il dispose de quelques plateformes de terre.
 
-Il combat encore quelques Anges et démons en Ville, et arrive au batiment principal de la ville (sorte de mairie).
-Ou un des généraux ange : Zakiel lui parle en disant qu'il ne faut pas qu'il se mêle des affaires qui ne le regarde pas, Le joueur réponds de la manière qu'il souhaite
+Il combat encore quelques anges et démons en ville, et arrive au bâtiment principal de la ville (sorte de mairie).
+Un des généraux anges : Zakiel lui parle en disant qu'il ne faut pas qu'il se mêle des affaires qui ne le regardent pas, le joueur répond de la manière qu'il souhaite
 
 Une réponse favorable aux humains
 Une réponse favorable aux anges
 Une réponse favorable aux démons
 
 Si la réponse est favorable aux anges, Zakiel ne l'attaque pas, et s'en va à l'appel de Solitan
-Dans le cas contraire Zakiel, l'affronte
+Dans le cas contraire Zakiel l'affronte
 
 "DEUXIEME BOSS" :
 
 se fait défonce par Zakiel.
-Zakiel tire sur le joueur plein de projectile.
+Zakiel tire sur le joueur plein de projectiles.
 Zakiel fonce en avant et donne un coup d'épée.
 Quand le joueur s'approche pour l'attaquer il fait une explosion d'énergie autour de lui et repousse le joueur
 
-Quand la dernière vie du joueur est perdue, On voit Zakiel qui n'achève pas le personnage principal, il s'en va à l'appel de Solitan.
+Quand la dernière vie du joueur est perdue, on voit Zakiel qui n'achève pas le personnage principal, il s'en va à l'appel de Solitan.
